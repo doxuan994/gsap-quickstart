@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="demo">
+        <svg id="svg" width="300" height="300" viewBox="0 0 300 300">
+            <rect id="svgRect" x="50" y="50" width="50" height="50" fill="#74191E" />
+        </svg>
+    </div>
+
+
+
+    <div class="slidecontainer">
+        <input type="range" min="0" max="1" value="0" class="slider" id="myRange" step="0.001">
+        <p>Value: <span id="demo"></span></p>
+    </div>
+
+    <button type="button" id="play">Play</button>
+    <button type="button" id="pause">Pause</button>
+    <button type="button" id="reverse">Reverse</button>
+    <button type="button" id="resume">Resume</button>
+    <button type="button" id="restart">Restart</button>
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>

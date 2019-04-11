@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="demo">
+        <svg id="svg" width="600" height="300" viewBox="0 0 600 300">
+
+
+            <rect id="rectBorder" x="0" y="0" width="150" height="150" fill="black"/>
+
+            <g id="rect">
+                <rect x="0" y="0" width="50" height="50" fill="#4b5a81"/>
+            </g>
+
+            <g id="circle">
+                <circle cx="400" cy="150" r="100" fill="#76d48f" />
+
+                <text transform="matrix(1 0 0 1 370 150)" font-size="20">spin me</text>
+
+                <circle cx="340" cy="100" r="10" fill="white" />
+            </g>
+
+
+        </svg>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/utils/Draggable.min.js"></script>
+
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>

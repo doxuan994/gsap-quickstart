@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#svg {
+    margin: 10px;
+}
+
+#logo, #lines, #ByGreenSock, #DrawSVG, #Plugin {
+    visibility: hidden;
+}
+
+#slider {
+    width:400px;
+    margin:30px auto;
+    background-color: #222;
+    display: inline-block;
+}
+
+#slider, #slider a {
+    background-image: none;
+    border: 1px solid #555;
+}
+
+#slider a {
+    background-color: #444;
+}
+
+
+.gray-line {
+    fill: none;
+    stroke: #999999;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+.green-line {
+    fill: none;
+    stroke: #8BBC04;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+}
+.green-line-thin {
+    fill: none;
+    stroke: #8BBC04;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+
+.logo-green-fill {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #88CE02;
+}
+.logo-contour {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
+.logo-body {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #EFEFEF;
+}
+.logo-shaded {
+    opacity: 0.3;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
+.logo-green-fill-black-stroke {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #88CE02;
+    stroke: #000000;
+    stroke-width: 3.6298;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.gray-fill {
+    fill:#999999;
+}
+.plugin-stroke {
+    fill: none;
+    stroke: #88CE02;
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
